@@ -1,1 +1,0 @@
-s = 'apple banana apple mango banana'      #op- {'apple': 2, 'banana': 2, 'mango': 1}
