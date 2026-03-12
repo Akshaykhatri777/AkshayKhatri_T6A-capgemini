@@ -1,0 +1,24 @@
+File is type of container in which we store data..
+
+By using extension name, we can identify the type of data..
+ex. -- .py, .txt, .html, .pdf, .jpg, .mp4
+
+Permission is important to access a file..
+
+open() -> to open a file
+close() -> to close a file , file mu
+
+
+3 Mode-
+write(w) --> only write(w) , write+read(w+) , write binary(wb) , write and read binary(wb+)
+read(r) --> only read(r) , read+write(r+) , read binary(rb) , read and write binary(rb+)
+append(a) --> only append(a) , append+read(a+) , append binary(ab) , append and read binary(ab+)
+
+**for write operation,
+1. write(str_data): single line of data
+2. writelines[line1, line2, .... line.]
+
+**for read operation,
+1. read()
+2. readline()
+3. readlines()

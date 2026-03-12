@@ -1,0 +1,10 @@
+# file = open('temp.txt','r')
+# print(file.read())
+# file.close()
+
+file = open('write.txt','r+')
+print(file.read())
+file.seek(0)
+print(file.readline(4))
+print(file.readline())
+file.close()
